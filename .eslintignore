@@ -1,0 +1,5 @@
+node_modules/
+.next/
+.prettierrc.js
+.eslintrc.json
+!.storybook
