@@ -1,5 +1,5 @@
 {
-  "name": "ogg",
+  "name": "optimal-group-generator",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -40,5 +40,14 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "prettier": "^2.8.7",
     "typescript": "5.0.4"
+  },
+  "author": "OGG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Group-Maker/Optimal-Group-Generator/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Group-Maker/Optimal-Group-Generator.git"
   }
 }
