@@ -43,7 +43,7 @@ export default function Home() {
         </button>
       </form>
       {isLoggedIn && (
-        <div m-auto w-100>
+        <div className="m-auto w-100">
           <ButtonList error={false} />
         </div>
       )}
