@@ -25,14 +25,36 @@ export const ButtonList = ({ error = false }: ButtonList) => {
 
   if (error) {
     return (
-      <div style={{ width: '500px', height: '500px', backgroundColor: 'tomato' }}>Error!!!</div>
+      <div
+        style={{
+          width: '500px',
+          height: '500px',
+          backgroundColor: 'tomato',
+          margin: '20px auto',
+          fontSize: '50px',
+          textAlign: 'center',
+        }}
+      >
+        Error!!!
+      </div>
     );
   }
   return (
-    <div title="tasks" style={{ width: '500px', height: '500px', backgroundColor: 'tomato' }}>
+    <div
+      title="tasks"
+      style={{
+        width: '500px',
+        height: '500px',
+        backgroundColor: 'tomato',
+        margin: '20px auto',
+        display: 'flex',
+        flexFlow: 'row wrap',
+        justifyContent: 'space-between',
+      }}
+    >
       {tasks &&
         (tasks as Task[]).map((task: Task) => (
-          <Button key={task.id} width={100} height={100}>
+          <Button key={task.id} width={200} height={150}>
             {task.title}
           </Button>
         ))}

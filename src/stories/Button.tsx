@@ -25,7 +25,7 @@ export const Button = ({
     ...style,
     width: width + 'px',
     height: height + 'px',
-    backgroundColor: isClicked ? 'tomato' : 'initial',
+    backgroundColor: isClicked ? 'aqua' : '#e1e694',
   };
 
   return (
